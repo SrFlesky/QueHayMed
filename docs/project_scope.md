@@ -1,2 +1,5 @@
 # Scope de la app web QueHayMed
 
+La app se llama QuehayMed, la app mostrara todos los eventos que hay en la ciudad de medellin, al decir eventos se incluyen aquellas Ferias y Fiestas Tradicionales, Festivales Culturales y de Arte, Moda y Negocios (Plaza Mayor), Música y Entretenimiento, Eventos Deportivos y Académicos. Todos estos eventos incluidos en la app, estan restringidos unicamente con boleteria, sea comprada o reservada. por lo tanto, la app brindara la opcion de obtener tu ticket de una manera facil y rapida, teniendo enlaces de pago rapido y con boleteria unicamente visible (QR) para la persona registrada en la app.
+
+Su uso sera limitado unicamente para jovenes menores de 18 años, debido a que estos no tendran la oportunidad de comprar cualquier entrada sino a eventos especificos que se lo permitan. De resto toda persona mayor de 18 años tiene la opcion de comprar su boleta para el evento que desee.
