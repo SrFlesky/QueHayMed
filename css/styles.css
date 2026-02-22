@@ -1,1 +1,87 @@
 /* Estilos */
+
+/* Header */
+
+/** Define colores, tipografía, etc para todo el archivo**/
+:root {
+    --header-background-color: white; 
+    --color-primary: #508f8a;
+    --color-primary-hover: #85afab26;
+    --color-secondary: #a15937;
+    --color-third: #e05714;
+    --color-fourth: #f1f9f8;
+    --color-fourth-hover: #2f5c58;
+
+    --color-fifth: #614f47;
+    --color-sixth: #303837;
+
+    --font-primary: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* DOCUMENT */
+
+body {
+    margin: 0;
+    background-color: var(--color-fourth);
+}
+
+/* HEADER */
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: var(--header-background-color);
+  }
+
+/* LOGO */
+
+  .logo {
+    font-family: var(--font-primary);
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: var(--color-primary);
+  }
+
+  .logo-med {
+    color: var(--color-third);
+  }
+
+/* BUTTONS HEADER */
+
+  .nav-actions {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .btn {
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease;
+  }
+
+  .btn-outline {
+    background: transparent;
+    border: 2px solid;
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    font-family: var(--font-primary)
+  }
+
+  .btn-outline:hover {
+    background-color: var(--color-primary-hover);
+  }
+
+  .btn-filled {
+    background-color: var(--color-primary);
+    color: white;
+    font-family: var(--font-primary)
+  }
+
+  .btn-filled:hover {
+    background-color: var(--color-fourth-hover);
+  }
