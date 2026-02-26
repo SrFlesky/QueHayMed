@@ -1,3 +1,3 @@
 # Tecnologías Usadas
 
-## HTML y CSS
+## HTML, CSS y JavaScript

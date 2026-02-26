@@ -30,50 +30,22 @@ N: #000000
 - **Estilo:** Botón sin fondo (outline, color primario) para Login
 - **Estilo:** Botón con fondo (color primario, letras blancas) para Registro (versión compacta)
 
-### Botones
-
-#### Botón Primario (Compra/Acción principal)
-- **Fondo:** 
-- **Texto:** 
-- **Padding:** 
-- **Border-radius:** 
-- **Sombra:** 
-- **Hover:** 
-- **Active:** 
-- **Disabled:** 
-
-#### Botón Secundario (Info/Detalles)
-- **Fondo:** 
-- **Texto:** 
-- **Padding:** 
-- **Border-radius:** 
-- **Hover:** 
-
 ### Tarjetas de Evento (Flyers)
 
 #### Contenedor
 - **Fondo:** `#FFFFFF`
-- **Border-radius:** 
-- **Sombra:** 
-- **Padding:** 
-- **Transición:** 
-- **Hover:** 
-
-#### Imagen del Flyer
-- **Border-radius:** 
-- **Aspect ratio:** 
-- **Object-fit:** 
-- **Background fallback:** 
+- **Borde:** Borde redondeado leve, sin color, con sobra ligera
+- **Imagen:** Imágen del flyer completa adaptada al ancho del contenedor
 
 #### Contenido de la Tarjeta
-- **Título:** 
-- **Fecha/Lugar:** 
-- **Precio:** 
-- **Restricción de edad:** 
+- **Título:** Titulo del evento, con etiqueta h2
+- **Fecha/Lugar:** Fecha en formato escrito dd de mes (en letras) de aaaa
+- **Restricción de edad:** Badge con símbolo +18 en color rojo (próximamente)
+- **Botones:** Botones de colores rojizos acorde con los colores del título
 
 ### Badges y Etiquetas
 
-#### Badge +18
+#### Badge +18 (Por realizar)
 - **Fondo:** 
 - **Borde:** 
 - **Texto:** 
@@ -81,20 +53,12 @@ N: #000000
 - **Border-radius:** 
 - **Display:** 
 
-#### Checkbox (Aviso de mayor de edad)
-- **Borde:** 
-- **Border-radius:** 
-- **Checked:** 
-- **Label:**
-
 ### Modales y Alertas
 
 #### Modal de aviso (+18)
-- **Overlay:** 
-- **Contenido:** 
-- **Título:** 
-- **Mensaje:** 
-- **Botones:** P
+- **Título:** Advetencia en color rojo
+- **Mensaje:** Mensaje que avisa que existen eventos exclusivos para mayores de 18 años y pregunta para confirmar edad.
+- **Botones:** Si y no, en estilo filled y outline con los dos colores principales.
 
 ### Barra Superior (Header)
 
@@ -102,14 +66,3 @@ N: #000000
 - **Fondo:** `#FFFFFF`
 - **Padding:** 1rem 5%
 - **Border-bottom:** `0px`
-
-### Espaciado General (Mobile First)
-
-| Elemento | Margen/Padding |
-|----------|----------------|
-| **Contenedor principal** | Padding: 16px |
-| **Entre secciones** | Margin-bottom: 24px |
-| **Entre tarjetas** | Gap: 16px |
-| **Entre elementos de formulario** | Gap: 20px |
-| **Padding de página** | 16px laterales |
-| **Iconos y texto en botones** | Gap: 8px |
