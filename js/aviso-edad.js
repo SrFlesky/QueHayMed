@@ -6,12 +6,12 @@ document.addEventListener('DOMContentLoaded', function() {
       document.body.style.overflow = 'hidden';
       
       btnSi.addEventListener('click', function() {
-        console.log('Usuario hizo clic en: Sí, soy mayor de 18 años');
-        // No hacemos nada más
+        aviso.style.display = 'none';
+        document.body.style.overflow = 'auto';
       });
       
       btnNo.addEventListener('click', function() {
-        console.log('Usuario hizo clic en: No, no soy mayor de 18 años');
-        // No hacemos nada más
+        aviso.style.display = 'none';
+        document.body.style.overflow = 'auto';
       });
     });

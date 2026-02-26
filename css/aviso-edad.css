@@ -20,7 +20,6 @@
     width: 90%;
     text-align: center;
     box-shadow: var(--shadow-card-events);
-    border: 2px solid var(--color-third);
     font-family: var(--font-primary);
 }
 
