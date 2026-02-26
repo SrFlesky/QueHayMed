@@ -1,0 +1,128 @@
+.aviso-edad {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(48, 56, 55, 0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    backdrop-filter: blur(4px);
+}
+
+.aviso-contenido {
+    background-color: var(--header-background-color);
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    max-width: 500px;
+    width: 90%;
+    text-align: center;
+    box-shadow: var(--shadow-card-events);
+    font-family: var(--font-primary);
+}
+
+.aviso-contenido h2 {
+    color: var(--color-third);
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-family: var(--font-primary);
+    font-weight: bold;
+}
+
+.aviso-contenido p {
+    margin-bottom: 1.2rem;
+    color: var(--color-sixth);
+    line-height: 1.6;
+    font-family: var(--font-primary);
+    font-size: 1rem;
+}
+
+.botones-aviso {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.btn-aviso {
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease;
+    font-family: var(--font-primary);
+    min-width: 200px;
+}
+
+.btn-si {
+    background-color: var(--color-primary);
+    color: white;
+    border: 2px solid var(--color-primary);
+}
+
+.btn-si:hover {
+    background-color: var(--color-fourth-hover);
+    transform: translateY(-2px);
+    border-color: var(--color-fourth-hover);
+}
+
+.btn-no {
+    background-color: transparent;
+    border: 2px solid var(--color-third);
+    color: var(--color-third);
+}
+
+.btn-no:hover {
+    background-color: var(--color-third-low);
+    transform: translateY(-2px);
+}
+
+.nota-legal {
+    font-size: 0.85rem;
+    color: var(--color-fifth) !important;
+    margin-top: 1.5rem;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+/* Ajuste responsive */
+@media (max-width: 768px) {
+    .aviso-contenido {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+    
+    .aviso-contenido h2 {
+        font-size: 1.5rem;
+    }
+    
+    .btn-aviso {
+        min-width: 160px;
+        padding: 0.7rem 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .botones-aviso {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+    
+    .btn-aviso {
+        width: 100%;
+        min-width: auto;
+    }
+    
+    .aviso-contenido h2 {
+        font-size: 1.3rem;
+    }
+    
+    .aviso-contenido p {
+        font-size: 0.95rem;
+    }
+}
