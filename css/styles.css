@@ -119,10 +119,15 @@ footer {
     background-color: var(--header-background-color);
     padding: 1rem;
     margin: 2rem;
-    width: 20rem;
-    height: 25rem;
+    width: 22rem;
+    min-height: 28rem;
     border-radius: 1.5rem;
     box-shadow: var(--shadow-card-events);
+}
+
+.event-image {
+    width: 100%;
+    border-radius: 6px;
 }
 
 .first-event h1 {
@@ -132,6 +137,31 @@ footer {
 
 .first-event p {
     color: var(--color-secondary);
+}
+
+.event-actions {
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.btn-info {
+    background-color: var(--color-secondary);
+    color: white;
+    font-family: var(--font-primary);
+}
+
+.btn-buy {
+    background-color: var(--color-third);
+    color: white;
+    font-family: var(--font-primary);
 }
 
 /* Footer */
