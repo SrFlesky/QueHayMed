@@ -29,17 +29,21 @@ html {
 }
 
 body {
-    height: 100%;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
     background-color: var(--color-fourth);
+    display: flex;
+    flex-direction: column;
+}
+
+.body-background {
+    flex: 1;
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
-    height: 60px;
+    flex-shrink: 0;
 }
 
 /* HEADER */
