@@ -1,0 +1,66 @@
+# ============================================
+#   .gitignore — Proyecto Web
+# ============================================
+
+# ── Sistema Operativo ──────────────────────
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# ── Editores e IDEs ────────────────────────
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (WebStorm, etc.)
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+
+# ── Dependencias ───────────────────────────
+node_modules/
+bower_components/
+
+# ── Variables de entorno y secretos ────────
+.env
+.env.local
+.env.*.local
+
+# ── Logs y archivos temporales ─────────────
+*.log
+logs/
+tmp/
+temp/
+
+# ── Build / Distribución ───────────────────
+dist/
+build/
+out/
+
+# ── Archivos comprimidos (si son generados) ─
+*.zip
+*.tar.gz
+*.rar
+
+# ── Otros ──────────────────────────────────
+*.bak
+*.orig
