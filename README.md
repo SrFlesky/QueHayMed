@@ -21,6 +21,7 @@ Aplicación web diseñada para facilitar la búsqueda y adquisición de entradas
 
 ##  Estructura del proyecto
 
+```
 QueHayMed/
 │
 ├── index.html
@@ -37,6 +38,7 @@ QueHayMed/
 │
 └── js/
 └── aviso-edad.js
+```
 
 ##  Instalación y ejecución
 
