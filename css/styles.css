@@ -165,10 +165,14 @@ footer {
     transition: all 0.2s ease;
 }
 
-.btn-info {
-    background-color: var(--color-secondary);
+.btn-info{
+    background-color: var(--color-fifth);
     color: white;
     font-family: var(--font-primary);
+}
+
+.btn-info:hover {
+    background-color: var(--color-secondary);
 }
 
 .btn-buy {
@@ -177,6 +181,10 @@ footer {
     font-family: var(--font-primary);
 }
 
+.btn-buy:hover {
+    background-color: var(--color-third-low);
+    color: var(--color-third);
+}
 /* Footer */
 
 .footer-container {
